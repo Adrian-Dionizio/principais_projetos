@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Valor - App de Serviços</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Proposta de Valor - App de Serviços</h1>
+            <p class="subtitle">Conectando necessidades e talentos em Foz do Iguaçu e no Brasil</p>
+        </div>
+    </header>
+
+    <nav class="container">
+        <ul class="tabs">
+            <li class="tab active" data-tab="concorrentes">Análise de Concorrentes</li>
+            <li class="tab" data-tab="diferenciais">Diferenciais</li>
+            <li class="tab" data-tab="estrategias">Estratégias</li>
+            <li class="tab" data-tab="proposta">Proposta de Valor</li>
+            <li class="tab" data-tab="mapa-empatia">Mapa de Empatia</li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- Análise de Concorrentes -->
+        <section id="concorrentes" class="tab-content active">
+            <h2>Análise de Concorrentes</h2>
+            <p class="description">Principais players no mercado brasileiro de apps de serviços</p>
+            
+            <div class="competitors-container">
+                <div class="competitor-tabs">
+                    <button class="comp-tab active" data-comp="getninjas">GetNinjas</button>
+                    <button class="comp-tab" data-comp="triider">Triider</button>
+                    <button class="comp-tab" data-comp="comparacao">Comparação</button>
+                </div>
+                
+                <div id="getninjas" class="competitor-content active">
+                    <div class="competitor-card">
+                        <div class="competitor-logo">
+                            <span class="logo-placeholder">GetNinjas</span>
+                        </div>
+                        <div class="competitor-info">
+                            <h3>GetNinjas</h3>
+                            <p><strong>Fundação:</strong> 2011</p>
+                            <p><strong>Alcance:</strong> Mais de 3.000 cidades no Brasil</p>
+                            <p><strong>Volume:</strong> Mais de 4 milhões de serviços solicitados ao ano</p>
+                            <p><strong>Base de profissionais:</strong> Mais de 2 milhões cadastrados</p>
+                        </div>
+                    </div>
+                    
+                    <div class="value-proposition">
+                        <h4>Proposta de Valor</h4>
+                        <ul>
+                            <li><strong>Variedade:</strong> Mais de 500 tipos de serviços em um só lugar</li>
+                            <li><strong>Modelo de negócio:</strong> Profissionais pagam para desbloquear contatos de clientes (sistema de moedas)</li>
+                            <li><strong>Processo:</strong> Cliente solicita serviço gratuitamente → Recebe até 4 orçamentos → Negocia diretamente</li>
+                            <li><strong>Diferenciais:</strong> Profissionais avaliados, sistema de reputação, orçamentos gratuitos</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="triider" class="competitor-content">
+                    <div class="competitor-card">
+                        <div class="competitor-logo">
+                            <span class="logo-placeholder">Triider</span>
+                        </div>
+                        <div class="competitor-info">
+                            <h3>Triider</h3>
+                            <p><strong>Fundação:</strong> 2017</p>
+                            <p><strong>Alcance:</strong> Presente em mais de 15 cidades (principais capitais)</p>
+                            <p><strong>Aquisição:</strong> Comprou a operação brasileira da Habitissimo em 2021</p>
+                            <p><strong>Foco:</strong> Serviços de manutenção e reforma</p>
+                        </div>
+                    </div>
+                    
+                    <div class="value-proposition">
+                        <h4>Proposta de Valor</h4>
+                        <ul>
+                            <li><strong>Acompanhamento:</strong> "O Triider acompanha seu pedido do início ao fim"</li>
+                            <li><strong>Processo integrado:</strong> Solicitação, orçamentos, comunicação, contratação e pagamento em um único lugar</li>
+                            <li><strong>Pagamento:</strong> Facilitado em até 6x sem juros</li>
+                            <li><strong>Diferenciais:</strong> Profissionais verificados, garantia nos serviços, suporte constante</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="comparacao" class="competitor-content">
+                    <h3>Comparação dos Concorrentes</h3>
+                    <div class="comparison-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Aspecto</th>
+                                    <th>GetNinjas</th>
+                                    <th>Triider</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Modelo de negócio</td>
+                                    <td>Profissionais pagam por contatos</td>
+                                    <td>Não especificado claramente</td>
+                                </tr>
+                                <tr>
+                                    <td>Variedade de serviços</td>
+                                    <td>Mais de 500 tipos</td>
+                                    <td>Foco em manutenção e reforma</td>
+                                </tr>
+                                <tr>
+                                    <td>Alcance geográfico</td>
+                                    <td>Mais de 3.000 cidades</td>
+                                    <td>15+ cidades (principais capitais)</td>
+                                </tr>
+                                <tr>
+                                    <td>Garantia de serviço</td>
+                                    <td>Não mencionada explicitamente</td>
+                                    <td>Oferece garantia</td>
+                                </tr>
+                                <tr>
+                                    <td>Pagamento</td>
+                                    <td>Negociação direta</td>
+                                    <td>Integrado na plataforma, parcelamento</td>
+                                </tr>
+                                <tr>
+                                    <td>Verificação de profissionais</td>
+                                    <td>Sistema de avaliações</td>
+                                    <td>Verificação ativa</td>
+                                </tr>
+                                <tr>
+                                    <td>Diferencial principal</td>
+                                    <td>Volume e variedade</td>
+                                    <td>Acompanhamento completo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="market-trends">
+                <h3>Tendências do Mercado</h3>
+                <div class="trends-grid">
+                    <div class="trend-card">
+                        <div class="trend-icon">🔄</div>
+                        <h4>Integração de serviços</h4>
+                        <p>Plataformas buscando oferecer experiências completas, desde a solicitação até o pagamento</p>
+                    </div>
+                    <div class="trend-card">
+                        <div class="trend-icon">🔒</div>
+                        <h4>Foco em segurança</h4>
+                        <p>Verificação de profissionais e garantias são diferenciais importantes</p>
+                    </div>
+                    <div class="trend-card">
+                        <div class="trend-icon">👁️</div>
+                        <h4>Transparência</h4>
+                        <p>Avaliações, preços claros e informações detalhadas sobre profissionais</p>
+                    </div>
+                    <div class="trend-card">
+                        <div class="trend-icon">📱</div>
+                        <h4>Conveniência</h4>
+                        <p>Aplicativos móveis, notificações em tempo real e facilidade de uso</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais -->
+        <section id="diferenciais" class="tab-content">
+            <h2>Diferenciais do App</h2>
+            <p class="description">O que torna nosso aplicativo único no mercado</p>
+            
+            <div class="differentials-container">
+                <div class="differentials-tabs">
+                    <button class="diff-tab active" data-diff="estrategicos">Estratégicos</button>
+                    <button class="diff-tab" data-diff="funcionais">Funcionais</button>
+                    <button class="diff-tab" data-diff="tecnologicos">Tecnológicos</button>
+                </div>
+                
+                <div id="estrategicos" class="differentials-content active">
+                    <div class="differentials-grid">
+                        <div class="differential-card">
+                            <div class="differential-icon">🎯</div>
+                            <h3>Foco regional inicial em Foz do Iguaçu</h3>
+                            <p>Enquanto os grandes players focam em capitais, criamos uma experiência altamente personalizada para uma cidade específica, com conhecimento profundo do mercado local e suas particularidades.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">🛒</div>
+                            <h3>Experiência de marketplace</h3>
+                            <p>Diferente do modelo tradicional de "pedido → orçamentos", nosso app propõe uma experiência de navegação por catálogo de profissionais, similar a um marketplace, dando maior autonomia ao cliente.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">✅</div>
+                            <h3>Verificação rigorosa de profissionais</h3>
+                            <p>Sistema de verificação mais completo que os concorrentes, incluindo verificação de antecedentes, documentação, qualificações técnicas e validação de habilidades.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">🤝</div>
+                            <h3>Inclusão social e formalização</h3>
+                            <p>Foco explícito na inclusão de trabalhadores informais no mercado digital, com ferramentas para ajudar profissionais a se formalizarem e capacitação para melhorarem seus serviços.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="funcionais" class="differentials-content">
+                    <div class="differentials-grid">
+                        <div class="differential-card">
+                            <div class="differential-icon">🛡️</div>
+                            <h3>Sistema de garantia e seguro</h3>
+                            <p>Garantia de satisfação para todos os serviços, seguro contra danos ou acidentes durante a execução, e processo claro de resolução de disputas.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">📅</div>
+                            <h3>Agendamento inteligente</h3>
+                            <p>Sistema que considera a localização do profissional e otimiza rotas, com sugestões de horários baseadas na disponibilidade e proximidade.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">💯</div>
+                            <h3>Transparência total</h3>
+                            <p>Preços claros e padronizados por tipo de serviço, perfis detalhados com portfólio, avaliações verificadas e histórico completo de serviços.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">👌</div>
+                            <h3>Experiência simplificada</h3>
+                            <p>Interface intuitiva e amigável, menos etapas para contratar, comunicação direta e integrada, e acompanhamento em tempo real do status do serviço.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tecnologicos" class="differentials-content">
+                    <div class="differentials-grid">
+                        <div class="differential-card">
+                            <div class="differential-icon">🧠</div>
+                            <h3>Inteligência artificial para matching</h3>
+                            <p>Algoritmo que aprende as preferências do cliente e sugere profissionais compatíveis, com recomendações personalizadas baseadas no histórico.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">📷</div>
+                            <h3>Recursos visuais avançados</h3>
+                            <p>Possibilidade de envio de fotos/vídeos do problema para avaliação prévia, videochamada integrada para diagnóstico remoto e realidade aumentada.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">🔨</div>
+                            <h3>Integração com fornecedores</h3>
+                            <p>Parceria com lojas de materiais de construção e ferramentas, orçamentos que incluem materiais necessários e descontos exclusivos.</p>
+                        </div>
+                        
+                        <div class="differential-card">
+                            <div class="differential-icon">🏆</div>
+                            <h3>Gamificação e fidelização</h3>
+                            <p>Sistema de pontos e recompensas para clientes frequentes, programa de fidelidade e desafios para profissionais de destaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estratégias -->
+        <section id="estrategias" class="tab-content">
+            <h2>Estratégias para Superar Concorrentes</h2>
+            <p class="description">Como nos posicionaremos para conquistar o mercado</p>
+            
+            <div class="strategies-container">
+                <div class="strategy-card">
+                    <div class="strategy-number">1</div>
+                    <div class="strategy-content">
+                        <h3>Estratégia de Entrada e Expansão Regional</h3>
+                        <p><strong>Dominar Foz do Iguaçu antes de expandir</strong></p>
+                        <ul>
+                            <li>Concentrar recursos em uma única cidade inicialmente</li>
+                            <li>Alcançar alta densidade de profissionais por categoria</li>
+                            <li>Estabelecer parcerias locais com comércios e condomínios</li>
+                            <li>Criar eventos presenciais para cadastro e treinamento</li>
+                        </ul>
+                        <p class="strategy-advantage"><strong>Vantagem:</strong> Enquanto concorrentes diluem esforços em múltiplas cidades, nosso foco geográfico permite maior penetração e reconhecimento local.</p>
+                    </div>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-number">2</div>
+                    <div class="strategy-content">
+                        <h3>Estratégia de Experiência do Usuário</h3>
+                        <p><strong>Criar uma experiência verdadeiramente centrada no usuário</strong></p>
+                        <ul>
+                            <li>Interface simplificada com menos etapas para contratação</li>
+                            <li>Sistema de busca e filtros avançados</li>
+                            <li>Visualização de agenda em tempo real dos profissionais</li>
+                            <li>Acompanhamento em tempo real da localização do profissional</li>
+                        </ul>
+                        <p class="strategy-advantage"><strong>Vantagem:</strong> Supera a experiência fragmentada do GetNinjas e a limitação de categorias do Triider, oferecendo navegação mais intuitiva.</p>
+                    </div>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-number">3</div>
+                    <div class="strategy-content">
+                        <h3>Estratégia de Confiança e Segurança</h3>
+                        <p><strong>Estabelecer o mais alto padrão de confiabilidade do mercado</strong></p>
+                        <ul>
+                            <li>Verificação em múltiplas etapas para profissionais</li>
+                            <li>Sistema de garantia próprio para todos os serviços</li>
+                            <li>Seguro contra danos ou acidentes durante a execução</li>
+                            <li>"Selo de confiança" para profissionais que atendem a critérios rigorosos</li>
+                        </ul>
+                        <p class="strategy-advantage"><strong>Vantagem:</strong> Aborda diretamente a principal preocupação dos usuários (segurança) com medidas mais robustas que as oferecidas pelos concorrentes.</p>
+                    </div>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-number">4</div>
+                    <div class="strategy-content">
+                        <h3>Estratégia de Modelo de Negócio</h3>
+                        <p><strong>Adotar modelo híbrido que beneficia ambos os lados</strong></p>
+                        <ul>
+                            <li>Para clientes: acesso gratuito à plataforma e busca</li>
+                            <li>Para profissionais: cadastro gratuito e modelo freemium</li>
+                            <li>Plano básico: comissão por serviço (10-15%)</li>
+                            <li>Plano premium: mensalidade fixa com comissão reduzida</li>
+                        </ul>
+                        <p class="strategy-advantage"><strong>Vantagem:</strong> Mais justo que o modelo de "compra de contatos" do GetNinjas e mais transparente que o modelo do Triider.</p>
+                    </div>
+                </div>
+                
+                <div class="strategy-card">
+                    <div class="strategy-number">5</div>
+                    <div class="strategy-content">
+                        <h3>Estratégia de Impacto Social</h3>
+                        <p><strong>Posicionar o app como agente de transformação social</strong></p>
+                        <ul>
+                            <li>Programas de capacitação para profissionais</li>
+                            <li>Ferramentas para formalização (MEI)</li>
+                            <li>Parcerias com instituições de ensino técnico</li>
+                            <li>Sistema de microcrédito para aquisição de ferramentas</li>
+                        </ul>
+                        <p class="strategy-advantage"><strong>Vantagem:</strong> Cria conexão emocional com usuários e diferencia a marca por seu propósito social.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="implementation-phases">
+                <h3>Implementação Faseada</h3>
+                <div class="phases-container">
+                    <div class="phase">
+                        <h4>Fase 1: Lançamento</h4>
+                        <ul>
+                            <li>Foco regional em Foz do Iguaçu</li>
+                            <li>Experiência de usuário simplificada</li>
+                            <li>Verificação básica de profissionais</li>
+                            <li>Modelo de negócio inicial</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <h4>Fase 2: Consolidação</h4>
+                        <ul>
+                            <li>Sistema de garantia</li>
+                            <li>Recursos tecnológicos básicos</li>
+                            <li>Expansão para cidades próximas</li>
+                            <li>Programas iniciais de capacitação</li>
+                        </ul>
+                    </div>
+                    <div class="phase">
+                        <h4>Fase 3: Expansão</h4>
+                        <ul>
+                            <li>Recursos avançados de IA</li>
+                            <li>Sistema completo de impacto social</li>
+                            <li>Expansão regional mais ampla</li>
+                            <li>Parcerias estratégicas com fornecedores</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proposta de Valor -->
+        <section id="proposta" class="tab-content">
+            <h2>Proposta de Valor</h2>
+            <p class="description">O que nos define e nos diferencia no mercado</p>
+            
+            <div class="value-proposition-statement">
+                <blockquote>
+                    "Conectamos pessoas que precisam de ajuda a profissionais verificados e confiáveis através de uma experiência simples e segura, transformando pequenos serviços em grandes soluções para o dia a dia, enquanto geramos oportunidades reais de trabalho e renda na sua comunidade."
+                </blockquote>
+            </div>
+            
+            <div class="value-elements">
+                <h3>Elementos Fundamentais da Proposta de Valor</h3>
+                <div class="elements-grid">
+                    <div class="element-card">
+                        <div class="element-icon">⚡</div>
+                        <h4>Simplicidade e Praticidade</h4>
+                        <p>Experiência de marketplace intuitiva, onde encontrar o profissional ideal é tão fácil quanto escolher um produto em uma loja online.</p>
+                    </div>
+                    
+                    <div class="element-card">
+                        <div class="element-icon">🔒</div>
+                        <h4>Confiança e Segurança</h4>
+                        <p>Verificação rigorosa, garantia em todos os serviços e sistema transparente de avaliações verificadas.</p>
+                    </div>
+                    
+                    <div class="element-card">
+                        <div class="element-icon">🏙️</div>
+                        <h4>Comunidade e Impacto Local</h4>
+                        <p>Construímos uma comunidade onde profissionais locais encontram oportunidades reais e clientes encontram talentos da sua própria cidade.</p>
+                    </div>
+                    
+                    <div class="element-card">
+                        <div class="element-icon">📱</div>
+                        <h4>Tecnologia a Serviço da Simplicidade</h4>
+                        <p>Matching inteligente, diagnóstico remoto e acompanhamento em tempo real tornam a experiência fluida do início ao fim.</p>
+                    </div>
+                    
+                    <div class="element-card">
+                        <div class="element-icon">💼</div>
+                        <h4>Valorização do Trabalho</h4>
+                        <p>Nossa plataforma valoriza os profissionais, oferecendo ferramentas para crescimento, visibilidade para seu talento e remuneração adequada.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="benefits-section">
+                <h3>Benefícios Claros para Cada Público</h3>
+                <div class="benefits-container">
+                    <div class="benefits-column">
+                        <h4>Para Clientes</h4>
+                        <ul>
+                            <li>Economia de tempo na busca e contratação</li>
+                            <li>Tranquilidade ao receber profissionais verificados</li>
+                            <li>Transparência total em preços e qualificações</li>
+                            <li>Garantia de satisfação em todos os serviços</li>
+                            <li>Suporte durante todo o processo</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefits-column">
+                        <h4>Para Profissionais</h4>
+                        <ul>
+                            <li>Acesso a clientes qualificados sem investimento inicial</li>
+                            <li>Ferramentas para gestão e crescimento do negócio</li>
+                            <li>Oportunidade de construir reputação digital</li>
+                            <li>Modelo de negócio justo e transparente</li>
+                            <li>Capacitação e apoio para formalização</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="commitment">
+                <h3>Compromisso com a Excelência</h3>
+                <p>Nossa proposta de valor não se limita a conectar pessoas, mas a transformar a experiência de contratação de serviços em algo simples, seguro e satisfatório para todos os envolvidos. Acreditamos que a tecnologia, quando aplicada com propósito, pode resolver problemas reais e criar oportunidades significativas na comunidade.</p>
+                <p>Ao escolher nosso aplicativo, você não está apenas contratando um serviço, mas participando de um movimento de valorização do trabalho bem feito e de transformação digital inclusiva, começando pela sua cidade e expandindo para todo o Brasil.</p>
+            </div>
+        </section>
+        
+        <!-- Mapa de Empatia -->
+        <section id="mapa-empatia" class="tab-content">
+            <h2>Mapa de Empatia</h2>
+            <p class="description">Compreendendo as pessoas que interagem com nosso aplicativo</p>
+            
+            <div class="empathy-tabs">
+                <button class="emp-tab active" data-emp="cliente">Cliente</button>
+                <button class="emp-tab" data-emp="profissional">Profissional</button>
+            </div>
+            
+            <div id="cliente" class="empathy-content active">
+                <div class="empathy-map">
+                    <div class="empathy-head">
+                        <div class="head-content">
+                            <h3>O que pensa e sente?</h3>
+                            <div class="pains-gains">
+                                <div class="pains">
+                                    <h4>Dores</h4>
+                                    <ul>
+                                        <li>Falta de tempo para tarefas domésticas</li>
+                                        <li>Dificuldade em encontrar profissionais confiáveis</li>
+                                        <li>Medo de golpes ou serviços mal feitos</li>
+                                        <li>Preocupação com segurança ao receber estranhos</li>
+                                    </ul>
+                                </div>
+                                <div class="gains">
+                                    <h4>Desejos</h4>
+                                    <ul>
+                                        <li>Solução rápida e eficiente para problemas</li>
+                                        <li>Profissionais verificados e confiáveis</li>
+                                        <li>Praticidade similar a outros aplicativos</li>
+                                        <li>Preços justos e transparentes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="empathy-sections">
+                        <div class="section" id="section-1">
+                            <h3>1. Quem é?</h3>
+                            <ul>
+                                <li>Pessoas ocupadas com empregos</li>
+                                <li>Jovens iniciando vida independente</li>
+                                <li>Idosos com limitações físicas</li>
+                                <li>Famílias sem tempo ou habilidades para reparos</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-2">
+                            <h3>2. O que precisa?</h3>
+                            <ul>
+                                <li>Resolver problemas domésticos rapidamente</li>
+                                <li>Encontrar profissionais confiáveis</li>
+                                <li>Praticidade no agendamento e pagamento</li>
+                                <li>Garantia de qualidade no serviço</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-3">
+                            <h3>3. O que vê?</h3>
+                            <ul>
+                                <li>Tarefas se acumulando em casa</li>
+                                <li>Anúncios informais de serviços sem garantias</li>
+                                <li>Apps que facilitam outras áreas da vida</li>
+                                <li>Vizinhos com problemas similares</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-4">
+                            <h3>4. O que fala?</h3>
+                            <ul>
+                                <li>"Não tenho tempo para isso"</li>
+                                <li>"Preciso de alguém confiável"</li>
+                                <li>"Não sei a quem recorrer"</li>
+                                <li>"Queria uma solução mais prática"</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-5">
+                            <h3>5. O que faz?</h3>
+                            <ul>
+                                <li>Procrastina tarefas domésticas</li>
+                                <li>Pede indicações em grupos de WhatsApp</li>
+                                <li>Pesquisa serviços online sem sucesso</li>
+                                <li>Tenta resolver sozinho, nem sempre com êxito</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-6">
+                            <h3>6. O que escuta?</h3>
+                            <ul>
+                                <li>Recomendações (ou reclamações) sobre profissionais</li>
+                                <li>Notícias sobre golpes ou serviços malfeitos</li>
+                                <li>Comentários sobre custos elevados</li>
+                                <li>Conversas sobre segurança e verificação</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="profissional" class="empathy-content">
+                <div class="empathy-map">
+                    <div class="empathy-head">
+                        <div class="head-content">
+                            <h3>O que pensa e sente?</h3>
+                            <div class="pains-gains">
+                                <div class="pains">
+                                    <h4>Dores</h4>
+                                    <ul>
+                                        <li>Instabilidade financeira e falta de clientes regulares</li>
+                                        <li>Dificuldade em divulgar seus serviços</li>
+                                        <li>Preocupação com segurança ao ir à casa de desconhecidos</li>
+                                        <li>Calotes e desvalorização do trabalho</li>
+                                    </ul>
+                                </div>
+                                <div class="gains">
+                                    <h4>Desejos</h4>
+                                    <ul>
+                                        <li>Fluxo constante de trabalho e renda</li>
+                                        <li>Reconhecimento e valorização profissional</li>
+                                        <li>Autonomia para escolher serviços</li>
+                                        <li>Pagamentos seguros e garantidos</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="empathy-sections">
+                        <div class="section" id="section-1">
+                            <h3>1. Quem é?</h3>
+                            <ul>
+                                <li>Profissionais autônomos "faz-tudo"</li>
+                                <li>Pessoas buscando renda complementar</li>
+                                <li>Especialistas experientes (eletricistas, encanadores)</li>
+                                <li>Trabalhadores informais sem canal de divulgação</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-2">
+                            <h3>2. O que precisa?</h3>
+                            <ul>
+                                <li>Encontrar clientes de forma constante</li>
+                                <li>Garantia de pagamento pelos serviços</li>
+                                <li>Divulgação eficiente de suas habilidades</li>
+                                <li>Flexibilidade de horários e serviços</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-3">
+                            <h3>3. O que vê?</h3>
+                            <ul>
+                                <li>Concorrência cobrando preços muito baixos</li>
+                                <li>Potencial de mercado não aproveitado</li>
+                                <li>Outros profissionais usando apps de serviço</li>
+                                <li>Custo de vida aumentando</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-4">
+                            <h3>4. O que fala?</h3>
+                            <ul>
+                                <li>"Queria ter serviço todo dia"</li>
+                                <li>"É difícil viver de bico"</li>
+                                <li>"Meu trabalho vale mais que isso"</li>
+                                <li>"Preciso de mais clientes"</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-5">
+                            <h3>5. O que faz?</h3>
+                            <ul>
+                                <li>Divulga serviços informalmente</li>
+                                <li>Negocia preços diretamente com clientes</li>
+                                <li>Investe em ferramentas e materiais</li>
+                                <li>Busca ativamente por novos clientes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="section" id="section-6">
+                            <h3>6. O que escuta?</h3>
+                            <ul>
+                                <li>Clientes pechinchando preços</li>
+                                <li>Histórias de colegas com problemas de pagamento</li>
+                                <li>Feedback sobre seu trabalho</li>
+                                <li>Discussões sobre informalidade e impostos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Análise desenvolvida para o aplicativo de serviços domésticos e pequenos reparos</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
